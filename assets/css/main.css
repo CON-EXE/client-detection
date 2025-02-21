@@ -19,20 +19,49 @@ body {
     background-color: #181721;
     color: #fff;
     height: 100svh;
+    
 }
 
 section > div {
     margin-top: 40px;
-    height: 100px;
-    width: 150px;
+    width: 300px;
+    border: solid 1px rgb(255 255 255 / 8%);
+    border-radius: 6px;
 }
 
-label {
+p {
+    margin-left: 15px;
+}
+
+p:first-child {
+    margin-top: 10px;
+}
+
+p:last-child {
+    margin-bottom: 10px;;
+}
+
+.label {
+    background-color: rgb(255 255 255 / 8%);
     height: 48px;
     width: 100%;
     line-height: 48px;
     text-align: center;
-    background-color: ;
-
+    border-radius: 6px 6px 0 0;
 }
 
+.online {
+    background-color: #28A745;
+}
+
+.offline {
+    background-color: #ff033e;
+}
+
+.connection {
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    border-radius: 6px;
+    border: none;
+}
